@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.header__logo {
+  cursor: pointer;
+}
+//used in the site footer
+.main__logo {
+  display: flex;
+  align-items: center;
+}
+.header_img {
+}
+//used in the site footer
+.logo__img {
+  width: 30px;
+  height: 30px;
+}
+.header__logo-text {
+}
+//used in the site footer
+.logo__text {
+  margin-left: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #323232;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+.nav__nav-element {
+  margin: 0px 21px;
+  cursor: pointer;
+
+  //smooth navigation transition
+  transition: all 0.3s linear;
+}
+.nav__nav-element:hover {
+  color: #f78434;
+  font-weight: bold;
+}
